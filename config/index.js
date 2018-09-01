@@ -14,9 +14,7 @@ module.exports = {
       '/login': {
         target: 'http://127.0.0.1:8888',  //目标接口域名
         changeOrigin: true,  //是否跨域
-        pathRewrite: {
-          '^/login': '/login'
-        }
+        ws: true
       },
     },
 

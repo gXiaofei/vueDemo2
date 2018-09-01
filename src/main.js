@@ -6,6 +6,8 @@ import router from './router';
 import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
 import '../static/font-awesome-4.7.0/css/font-awesome.min.css';
+import axios from 'axios';
+Vue.prototype.$axios = axios;
 
 Vue.config.productionTip = false;
 Vue.use(ElementUI);
