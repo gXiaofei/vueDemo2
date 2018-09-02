@@ -7,7 +7,10 @@ import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
 import '../static/font-awesome-4.7.0/css/font-awesome.min.css';
 import axios from 'axios';
+import jsCookie from 'js-cookie';
+
 Vue.prototype.$axios = axios;
+Vue.prototype.$Cookie = jsCookie;
 
 Vue.config.productionTip = false;
 Vue.use(ElementUI);
